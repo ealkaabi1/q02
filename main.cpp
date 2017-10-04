@@ -18,6 +18,10 @@ int main()
   */
 
   //PUT YOUR CODE BELOW THIS LINE
+  for (int i = 0; i < wordGrid.size(); i++)
+      for (int j = 0; j < wordGrid[i].size(); j++)
+        cout << "Row " << i << " Column " << j << " is " << wordGrid[i][j] << endl;
+
   //that prints each element of the matrix in the
   //following format:
   //Row _ Column _ is _
